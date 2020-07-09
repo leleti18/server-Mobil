@@ -1,28 +1,57 @@
-# Adonis API application
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+# API &Mobil
+<h1  align = "center">
+<img src = "https://ik.imagekit.io/gtwmhakom4/7e60ca4d-9655-4a31-ae8e-cce5f57cf48f_200x200_No_vSEwcU.png"> 
+<h1>
+---
 
-## Setup
+# Indice
 
-Use the adonis command to install the blueprint
+- [Sobre](#-sobre)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Configuração](#-configuração)
+- [Migrations](#-migrations)
+
+---
+
+## Sobre
+
+Esse projeto é uma API feita para um formulario, com as funções de criar, alterar, mostrar e deletar contando com authenticação, e validacao.
+
+---
+
+## 👩🏻‍💻Tecnologias utilizadas
+
+As tecnologias utilizadas foram
+
+- Bodyparser
+- Authentication
+- CORS
+- Lucid ORM
+- Migrations and seeds
+- Node
+- AdonisJS
+---
+
+## ⚙️ Configuração 
+
+Para inicia o projeto siga as instruções:
 
 ```bash
 adonis new yardstick --api-only
 ```
 
-or manually clone the repo and then run `npm install`.
+Ou instale manualmente por: 
 
+`npm install`.
 
 ### Migrations
 
-Run the following command to run startup migrations.
+Para rodar as migrations
 
 ```js
 adonis migration:run
 ```
+---
+Desenvolvido 💜 por Leticia G A C dos Santos.
